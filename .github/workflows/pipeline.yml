@@ -30,7 +30,6 @@ jobs:
       - name: Simular tests fallidos
         run: |
           echo "Ejecutando tests..."
-          exit 1
 
   deploy:
     name: Deploy
